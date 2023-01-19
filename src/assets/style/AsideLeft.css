@@ -1,0 +1,19 @@
+
+#asideLeft{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: rgba(255, 0, 0, 0);
+    width: 35%;
+    display:flex ;
+    align-items: flex-start;
+    justify-items: center;  
+    position: fixed;  
+}
+#listLeftAside{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px;
+
+}
