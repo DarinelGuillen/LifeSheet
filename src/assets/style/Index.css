@@ -2,13 +2,11 @@
     box-sizing: border-box;
 }
 html{
-    background-color: rgb(85, 77, 93);
-    color: black;
     font-size: medium;
     
 }
 body{
-    
+    background-color:red ;
     margin: 0cm;
     min-width: 100vh ;
 }
