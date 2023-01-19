@@ -1,15 +1,14 @@
 import {Link} from "react-router-dom" 
 import Header from "../components/atoms/Header";
-import ListStudent from "../components/molecules/ListStudent";
+import ListAsideLeft from "../components/molecules/Aside";
 import Footer from "../components/atoms/Footer";
 function Home(){
-    const listStudent=[{id:1,name:"Darinel",},{id:2,name:"Ovando",},{id:3,name:"Martin",},{id:4,name:"Manuel",},{id:5,name:"Alan",}]
     return(
         <>
             <Header/>
-            <ListStudent listStudent={listStudent}></ListStudent>
-            <Link to="/Login">Iniciar Sesion</Link>
-            <Link to="/Registration">Registrarte</Link>
+            <ListAsideLeft></ListAsideLeft>
+            <Link to="/Login">none</Link>
+            <Link to="/Registration">none</Link>
             <Footer/>
         </>
     )
