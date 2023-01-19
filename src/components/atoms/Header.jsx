@@ -15,7 +15,7 @@ function Header() {
             <div>
                 <a href="#" className="LogoD">
                 <img  id="D"src={D} alt="Logo de la pagina SPA Single page aplication" />
-            <span> {data.personal.nickname} </span>
+            <span> Darinel </span> //
             </a>
             </div>
             <ul className="navbar">
