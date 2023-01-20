@@ -1,0 +1,10 @@
+#root{
+    background-color: none;
+}
+
+
+
+body {
+    background:linear-gradient(to left top, rgb(52, 52, 160), rgb(147, 70, 70), rgb(37, 181, 186));
+    background-attachment: scroll; 
+}

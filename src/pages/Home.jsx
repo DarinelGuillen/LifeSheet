@@ -1,14 +1,15 @@
 import {Link} from "react-router-dom" 
 import Header from "../components/atoms/Header";
-import ListAsideLeft from "../components/molecules/Aside";
+import AsideLeft from "../components/molecules/Aside";
 import Footer from "../components/atoms/Footer";
+import Content from "../components/molecules/Content";
 function Home(){
     return(
         <>
             <Header/>
-            <ListAsideLeft></ListAsideLeft>
-            <Link to="/Login">none</Link>
-            <Link to="/Registration">none</Link>
+            <AsideLeft/>
+            <Content/>
+            <Link to="/Registration"><br></br>none</Link>
             <Footer/>
         </>
     )

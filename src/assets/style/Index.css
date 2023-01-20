@@ -5,8 +5,7 @@ html{
     font-size: medium;
     
 }
-body{
-    background-color:red ;
+body{background-image: url("../img/wallpaper.png");
     margin: 0cm;
-    min-width: 100vh ;
+    min-width: 1000px ;
 }

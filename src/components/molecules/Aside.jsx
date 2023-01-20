@@ -1,4 +1,4 @@
-import AsideLeft from "../atoms/AsideLeft";
+import '../../assets/style/AsideLeft.css'
 
 function Aside() {
     return (
@@ -8,6 +8,7 @@ function Aside() {
                 <li><a href="">About</a></li>
                 <li><a href="">Now</a></li>
                 <li><a href="">Null</a></li>
+                
                 <li><a href="">Contact</a></li>
             </ul>
         </div>

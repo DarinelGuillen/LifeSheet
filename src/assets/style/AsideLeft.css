@@ -1,19 +1,39 @@
 
 #asideLeft{
-    padding-top: 20%;
-    padding-bottom: 20%;
-    background-color: rgb(199, 198, 198);
-    width: 35%;
+   
+    background-color: rgba(199, 198, 198, 0.057);
+    width: 31%;
+    border-radius: 30px;
     display:flex ;
     align-items: flex-start;
     justify-items: center;  
-    position: fixed;  
+    
+    position: absolute;
+left: 77px;
+top: 65px;
+
+background: rgba(216, 195, 195, 0.5);
+backdrop-filter: blur(2px);
 }
 #listLeftAside{
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 30px;
     display: flex;
-    align-items: center;
+    align-content: stretch;
     flex-direction: column;
-    padding-left: 150px;
+    top: 0;
 
+    position: relative;
+
+font-family: 'Gugi';
+font-style: normal;
+font-weight: auto;
+font-size: 35px;
+line-height: 60px;
+/* or 171% */
+
+font-feature-settings: 'tnum' on, 'lnum' on, 'case' on, 'cpsp' on;
+
+color: #000000;
 }
