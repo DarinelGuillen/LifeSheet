@@ -15,7 +15,7 @@ export const data={
         github:"https://github.com/DarinelGuillen"
     },
     idioms:{
-        English:"<h3>English</h3>",Spanish:" <h3>Spanish</h3>",Japanese:"<h3>Japanese</h3>"
+        English:"English",Spanish:" Spanish",Japanese:"Japanese"
     },
     SoftSkills:{
         ProblemSolving:"Problem-solving",

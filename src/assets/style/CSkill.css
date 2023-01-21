@@ -1,10 +1,8 @@
 #Skills{
-    background-color: red;
     margin: 4px;
     padding: 4px;
 }
 .skillfather{
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,7 +10,6 @@
 
 }
 .skillchild{
-    background-color: blue;
     display: flex;
     flex-direction: column;
     

@@ -7,10 +7,12 @@ import TimeManagement from '../../assets/img/TimeManagement.png'
 import hard from '../../assets/img/hard.png'
 
 import "../../assets/style/CSkill.css"
-function CSkill() {
+function CSkill({item}) {
     return (
         <>
         <div id='Skills'>
+            
+
         <a name="Skills"></a>
         <div className="skillfather">
             <div className="skillchild">

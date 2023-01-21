@@ -1,25 +1,41 @@
 header{
-    background: #5d5656;
+    background-color: rgba(0, 0, 0, 0.116);
     display: flex;
     padding: 0px 0px 0px 0px;
-    box-shadow: 0px 198px 145px rgba(0, 0, 0, 0.15), 0px 151.292px 94.9264px rgba(0, 0, 0, 0.119453), 0px 114.688px 64.8907px rgba(0, 0, 0, 0.101239), 0px 87.1242px 48.742px rgba(0, 0, 0, 0.0897813), 0px 67.537px 40.3294px rgba(0, 0, 0, 0.0795044), 0px 54.863px 33.5022px rgba(0, 0, 0, 0.0648324), 0px 48.0385px 22.1093px rgba(0, 0, 0, 0.0401895);
+    box-shadow: 0px 198px 145px rgba(29, 226, 226, 0.295), 0px 151.292px 94.9264px rgba(0, 0, 0, 0.119453), 0px 114.688px 64.8907px rgba(0, 0, 0, 0.101239), 0px 87.1242px 48.742px rgba(0, 0, 0, 0.0897813), 0px 67.537px 40.3294px rgba(0, 0, 0, 0.0795044), 0px 54.863px 33.5022px rgba(0, 0, 0, 0.0648324), 0px 48.0385px 22.1093px rgba(0, 0, 0, 0.0401895);
     border-radius: 100px;
-
-
-    width: 100%;
+    width: 90%;
     height:  40px;
     min-height: 40px;
     top: 10px;
-    
-
+    left: 5%;
+    right: 5%;
     z-index:1000 ;
     align-items: center;
-    top: 10px;
     justify-content: space-between;
     position: fixed;
     transition: all .50s ease;
 
 }
+.TestGlass:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        
+        filter: blur(10px);
+    }
+    .TestGlass {
+        background: inherit;
+    }
+    .TestGlass:before {
+        background: inherit;
+    }
+
 #mainDivHeader{
     left: auto;
 }
@@ -82,7 +98,7 @@ a{
         right: -100%;
         width: 270px;
         height: 29vh;
-        background: rgb(237, 237, 241);
+        background: rgba(255, 255, 255, 0.329);
         display: flex;
         flex-direction:column ;
         justify-content:flex-start ;
@@ -95,17 +111,17 @@ a{
         transition: all .50s ease;
     }
     .navbar a:hover{
-        color: red;
+        color: rgb(255, 255, 255);
         transform: translateY(5px);
 
     }
     .navbar a.acive{
-        color: yellow;
+        color: rgba(255, 255, 255, 0.356);
     
     }
     
     .navbar.open{
-        right: 2%;
+        right: 0;
 
     }
 }

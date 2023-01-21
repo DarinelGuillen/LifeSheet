@@ -11,7 +11,7 @@ function Header() {
         
     }
     return ( 
-        <header>
+        <header >
             
             
                 <a href="#" className="LogoD">
@@ -21,8 +21,7 @@ function Header() {
             <ul className="navbar">
             <li><a href='#About'>About</a></li>
             <li><a href='#Skills'>Skills</a></li>
-            <li><a href='#'>Work</a></li>
-            <li><a href='#'>More</a></li>
+            <li><a href='#Idioms'>Idioms</a></li>
             <li><a href='#Contact'>Contact</a></li>
             </ul>
             <div className='main' id="menu-icon" onClick={handlerClick}>

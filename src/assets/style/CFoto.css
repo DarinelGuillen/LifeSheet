@@ -2,4 +2,10 @@
     width: 500px;
     padding: 0% 20% 0% 20%;
 transform: rotate(7deg);
+
+}
+#foto{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
 }

@@ -2,6 +2,7 @@ import mainImg from '../../assets/img/dari.jpg'
 import CAbout from '../atoms/CAbout';
 import CContact from '../atoms/CContac';
 import CSkill from '../atoms/CSkill';
+import CIdioms from '../atoms/CIdioms';
 import Foto from '../atoms/CFoto';
 import '../../assets/style/Content.css'
 
@@ -15,7 +16,8 @@ function Content() {
           </div>
         <Foto/>
         <CAbout/>
-        <CSkill/>
+        <CSkill />
+        <CIdioms/>
         </div>
         </div>
         </>

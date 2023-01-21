@@ -3,7 +3,9 @@ import "../../assets/style/CFoto.css"
 function CFoto() {
     return (
         <>
+            <div id="foto">
             <img id='imgDari' src={mainImg} alt="" />
+            </div>
         </>
       );
 }

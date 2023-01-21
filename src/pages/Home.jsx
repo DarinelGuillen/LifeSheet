@@ -10,7 +10,7 @@ function Home(){
             <AsideLeft/>
             <a name="Contact"></a>
             <Content/>
-            <Footer/>
+            
         </>
     )
 }
