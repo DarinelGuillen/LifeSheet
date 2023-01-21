@@ -6,7 +6,7 @@ function App() {
     return (
         <BrowserRouter>
         <Routes>
-        <Route path="/appweb/" element={<Home/>}/>
+        <Route path="/LifeSheet/" element={<Home/>}/>
         </Routes>
         </BrowserRouter>
      );

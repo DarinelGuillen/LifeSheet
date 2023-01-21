@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom" 
+
 import Header from "../components/atoms/Header";
 import AsideLeft from "../components/molecules/Aside";
 import Footer from "../components/atoms/Footer";
@@ -8,8 +8,8 @@ function Home(){
         <>
             <Header/>
             <AsideLeft/>
+            <a name="Contact"></a>
             <Content/>
-            <Link to="/Registration"><br></br>none</Link>
             <Footer/>
         </>
     )

@@ -4,10 +4,14 @@ header{
     padding: 0px 0px 0px 0px;
     box-shadow: 0px 198px 145px rgba(0, 0, 0, 0.15), 0px 151.292px 94.9264px rgba(0, 0, 0, 0.119453), 0px 114.688px 64.8907px rgba(0, 0, 0, 0.101239), 0px 87.1242px 48.742px rgba(0, 0, 0, 0.0897813), 0px 67.537px 40.3294px rgba(0, 0, 0, 0.0795044), 0px 54.863px 33.5022px rgba(0, 0, 0, 0.0648324), 0px 48.0385px 22.1093px rgba(0, 0, 0, 0.0401895);
     border-radius: 100px;
+
+
     width: 100%;
-    height:  50px;
-    top: 0;
-    right: 0;
+    height:  40px;
+    min-height: 40px;
+    top: 10px;
+    
+
     z-index:1000 ;
     align-items: center;
     top: 10px;
@@ -16,28 +20,29 @@ header{
     transition: all .50s ease;
 
 }
+#mainDivHeader{
+    left: auto;
+}
 ul{
     list-style: none;
 }
 
 a{
     text-decoration: none;
-    
+    outline: none;
+    color: black;
 }
-.logoD{
-    display: flex;
-    align-items: center;
-}
+
+
 #D{
     display: flex;
-    align-items: center;
     width: 35px;
     height: 35px;
-    
-}z6
- span{
+}
+ span#nickname{
     color: rgb(0, 0, 0);
     font-size: 2.7rem;
+    padding-left: 40px;
 }
 .navbar{
     display: flex;
@@ -49,9 +54,6 @@ a{
     margin: 0px 30px;
     transition: all .50s ease;
 }
-.navbar a:hover{
-    background: linear-gradient(#f8f8f8, #030303,#82d538,#38e2a9);
-} 
 #menu-icon{
     font-size: 35px;
     color: aqua;

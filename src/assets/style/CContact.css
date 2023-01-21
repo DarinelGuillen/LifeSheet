@@ -1,0 +1,16 @@
+.contactFather{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.contactChild{
+    display: flex;
+
+}
+.iconContact{
+    width: 30px;
+    height: 30px;
+}

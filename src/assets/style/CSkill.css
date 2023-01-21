@@ -1,0 +1,26 @@
+#Skills{
+    background-color: red;
+    margin: 4px;
+    padding: 4px;
+}
+.skillfather{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.skillchild{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pSkill{
+    font-size: 20px;
+}
+#iconSkill{
+    width: 30px;
+    height: 30px;
+}

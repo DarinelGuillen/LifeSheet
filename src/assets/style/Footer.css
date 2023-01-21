@@ -3,6 +3,5 @@ footer{
     color: aliceblue;
     display: flex;
     background-color: none  ;
-    padding-top: 400px;
-    margin-top: 100%;
+    bottom: 0;
 }

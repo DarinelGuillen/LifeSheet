@@ -1,11 +1,22 @@
-import '../../assets/style/Content.css'
 import mainImg from '../../assets/img/dari.jpg'
+import CAbout from '../atoms/CAbout';
+import CContact from '../atoms/CContac';
+import CSkill from '../atoms/CSkill';
+import Foto from '../atoms/CFoto';
+import '../../assets/style/Content.css'
+
 function Content() {
     return (
         <>
+        <div id="section">
         <div id="Content">
-            <img src={mainImg} alt="" />
-        <h1>Hola</h1>
+          <div id="topSection">
+            <CContact/>
+          </div>
+        <Foto/>
+        <CAbout/>
+        <CSkill/>
+        </div>
         </div>
         </>
       );

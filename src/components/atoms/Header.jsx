@@ -12,25 +12,23 @@ function Header() {
     }
     return ( 
         <header>
-            <div>
+            
+            
                 <a href="#" className="LogoD">
-                <img  id="D"src={D} alt="Logo de la pagina SPA Single page aplication" />
-
-            <span> Darinel </span> //
-
+                {/* <img  id="D"src={D} alt="Logo de la pagina SPA Single page aplication" /> */}
+            <span id='nickname' > {data.personal.nickname} </span> 
             </a>
-            </div>
             <ul className="navbar">
-            <li><a href='#'>About</a></li>
-            <li><a href='#'>None</a></li>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Skills'>Skills</a></li>
             <li><a href='#'>Work</a></li>
             <li><a href='#'>More</a></li>
-            <li><a href='#'><button>HERE</button></a></li>
+            <li><a href='#Contact'>Contact</a></li>
             </ul>
             <div className='main' id="menu-icon" onClick={handlerClick}>
                 <a href="#"><img id="D"src={menuD} alt="Foto DE MENU" /></a>
             </div>
-
+            
         </header>
      );
 }

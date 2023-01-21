@@ -1,8 +1,12 @@
 #Content{
-    background-color: rgba(0, 255, 166, 0.088);
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    justify-content: right;
+    /* es un div de ie  */
+    flex:80%;
+    background-color: rgba(255, 255, 0, 0.205);
+    padding: 5px;
+    margin-left: 30%;
+    margin-top: 90px;
+    margin-right: 40px;
+}
+.PText{
+    padding: 60px;
 }
